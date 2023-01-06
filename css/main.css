@@ -1,0 +1,121 @@
+.failures {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  padding: 12rem 0 8rem 0;
+  margin: 0 auto;
+  max-width: 100rem;
+}
+
+.person_img_box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.person_img_box img {
+  height: 60rem;
+}
+
+.failure_data {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-right: 9rem;
+}
+
+.failure_data p {
+  color: #444343;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.failure_data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.failure_data ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #444343;
+}
+
+.check_mark {
+  height: 2rem;
+}
+
+/* my plan */
+.my_plans {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.plans_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.plans_main .plan_object {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.plans_main .plan_object .plan_icons {
+  height: 8rem;
+}
+
+.plans_main .plan_object h4 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #151414;
+}
+
+.plans_main .plan_object h5 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #737272;
+}
+
+/* Positive Mindset Section */
+
+.positive_mindset_section {
+  max-width: 100rem;
+  border-radius: 8px;
+  min-height: 25rem;
+  margin: 0 auto;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem;
+}
+
+.pm_container {
+  max-width: 45rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pm_container .call_now_button {
+  width: fit-content;
+}
