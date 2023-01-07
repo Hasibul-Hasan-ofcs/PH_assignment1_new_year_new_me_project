@@ -24,7 +24,7 @@
   justify-content: center;
   flex-direction: column;
 
-  padding-right: 9rem;
+  padding: 15rem 9rem 0 0;
 }
 
 .failure_data p {
@@ -51,7 +51,9 @@
 }
 
 .check_mark {
-  height: 2rem;
+  /* height: 2rem; */
+  font-size: 2rem;
+  color: #25da8f;
 }
 
 /* my plan */

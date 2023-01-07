@@ -2,16 +2,21 @@ footer {
   margin: 10rem 0 0 0;
   min-height: 50rem;
   background: #151414;
+}
+
+.footer_inner_box {
   display: flex;
   flex-direction: row;
-  padding: 10rem 21rem;
+  padding: 10rem 0;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 .footer_left {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-right: 32rem;
+  padding-right: 25rem;
 }
 
 .icon_box_footer {
