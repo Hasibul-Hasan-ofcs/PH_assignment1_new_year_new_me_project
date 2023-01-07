@@ -1,10 +1,46 @@
+/* importance of success section */
+.importance {
+  margin: 0 auto;
+  max-width: 95rem;
+  padding: 12rem 0 0 0;
+}
+
+.points_of_success {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 10rem 0;
+}
+
+.points_of_success .success_vector_img {
+  height: 6rem;
+}
+
+.points_of_success .point {
+  border-radius: 8px;
+  box-shadow: 0 3px 15px 5px #d6d6d6;
+  padding: 3rem;
+  width: 28rem;
+}
+
+.points_of_success .point:hover {
+  box-shadow: 0 3px 8px 3px #d6d6d6;
+}
+
+.points_of_success .point h4 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+/* failures section */
+
 .failures {
   display: flex;
   flex-direction: row;
   gap: 8rem;
-  padding: 12rem 0 8rem 0;
+  padding: 5rem 0 8rem 0;
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: 95rem;
 }
 
 .person_img_box {
@@ -58,8 +94,8 @@
 
 /* my plan */
 .my_plans {
-  max-width: 100rem;
-  margin: 0 auto;
+  max-width: 95rem;
+  margin: 10rem auto;
 }
 
 .plans_main {
@@ -100,15 +136,15 @@
 /* Positive Mindset Section */
 
 .positive_mindset_section {
-  max-width: 100rem;
+  max-width: 95rem;
   border-radius: 8px;
-  min-height: 25rem;
+  min-height: 20rem;
   margin: 0 auto;
   background-image: url("../images/gradient1.png"), url("../images/watch.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 6rem;
+  padding: 5rem;
 }
 
 .pm_container {

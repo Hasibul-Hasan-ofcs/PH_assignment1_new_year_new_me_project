@@ -43,6 +43,10 @@ img:hover {
   background-color: #fff;
 }
 
+.white_button:hover {
+  box-shadow: 0 3px 8px 3px #004288;
+}
+
 .blue_button {
   border: none;
   font-weight: 600;
@@ -51,6 +55,10 @@ img:hover {
   color: #fff;
   padding: 1.8rem 3rem;
   border-radius: 5px;
+}
+
+.blue_button:hover {
+  background-color: #0990ff;
 }
 
 .section_title {
